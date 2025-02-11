@@ -1,0 +1,285 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia;
+  line-height: 1.6;
+ background:  linear-gradient(to right, #4B0082, #000000);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Header Section */
+#header {
+  background:  linear-gradient(to right, #4B0082, #000000);;
+  color: white;
+  padding: 10px 0;
+}
+
+#header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+#header .logo h1 {
+  font-size: 1.8rem;
+}
+
+#header ul {
+  display: flex;
+}
+
+#header ul li {
+  margin-left: 20px;
+}
+
+#header ul li a {
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+#header ul li a:hover {
+  color: #00d8ff;
+}
+
+/* Hero Section */
+#hero {
+  background: url('background.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+#hero h1 {
+  font-size: 3rem;
+}
+
+#hero p {
+  font-size: 1.5rem;
+}
+
+.cta-button {
+  background-color: white;
+  padding: 10px 50px;
+  color: purple;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  margin-top: 100px;
+}
+
+.cta-button:hover {
+  background-color: #6643b5;
+  color: white;
+}
+
+/* About Section */
+
+  .heading {
+            text-align: center;
+            font-size: 5rem;
+            color: purple;
+        }
+
+     .head {
+            text-align: center;
+            font-size: 3rem;
+            color: white;
+        }
+
+.head span{
+   color:purple;
+}
+
+#element{
+ color:white;
+}
+ .social-media a {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 4rem;
+            font-size: 2rem;
+            height: 4rem;
+            border: .2rem solid purple;
+            border-radius: 50%;
+            color: white;
+           background-color: purple;
+            margin: 1rem 1rem 1rem 0;
+        }
+
+        .social-media a:hover {
+            color: purple;
+            background: white;
+            box-shadow: 0 4px 8px black;
+        }
+
+  .about{
+    background:  linear-gradient(to right, #4B0082, #000000);;
+}
+
+  .about .heading span {
+            color: rgb(0, 0, 0);
+        }
+
+        .about-content h2 {
+            text-align: left;
+            line-height: 1.2;
+        }
+        .about-content p {
+            font-size: 1.6rem;
+            color: white;
+            font-weight: 650;
+        }
+   .about-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            background-color: var(--main-color);
+        }
+
+        .about-img img {
+            display: flex;
+            width: 35vw;
+            justify-content: center;
+            align-items: center;
+            border: .2rem solid var(--main-color);
+            border-radius: 50%;
+        }
+
+
+/* Skills Section */
+#skills {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: black;
+}
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.skill-card {
+  background: linear-gradient(to right, #4B0082, #000000);;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+ box-shadow: 0 4px 8px black;
+  text-align: center;
+}
+
+.skill-card h3 {
+  margin-bottom: 10px;
+  color: #ffebcd;
+}
+
+.skill-card p {
+  color: #ffebcd;
+}
+
+/* Projects Section */
+#projects {
+  background:black;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.project-card {
+  background: linear-gradient(to left, #4B0082, #000000);
+  color: #ffebcd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px black;
+  text-align: center;
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+color:white;
+}
+
+.project-card a {
+  color: black;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.project-card a:hover {
+  color: #ffebcd;
+}
+
+/* Contact Section */
+.head1{
+color: #ffebcd;
+ text-align: center;
+            font-size: 3rem;
+}
+#contact {
+  padding: 50px 20px;
+   background-color: linear-gradient(to right, #4B0082, #000000);
+}
+
+#contact h2{
+text-align: center;
+}
+
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px black;
+}
+
+#contact label {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+#contact button {
+  background-color: #352961;
+  padding: 10px 30px;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+}
+
+#contact button:hover {
+  background-color: #f6e5e5;
+  color: #352961;
+}
+
+/*
